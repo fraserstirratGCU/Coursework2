@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8000
 
-CND ["node", "server.js"]
+CMD ["node", "server.js"]
